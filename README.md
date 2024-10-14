@@ -1,24 +1,11 @@
-# README
+## Features
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- **CRUD operations for polls** (question, choices, votes).
+- **Allow users to vote** on a poll, with each choice updating the vote count.
+- **Show poll results** (e.g., percentage of votes for each choice).
 
-Things you may want to cover:
+## Enhancements
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- **Implement authentication** to limit voting to one vote per user.
+- **Add categories or tags** to polls.
+- **Allow users to create their own polls**.
