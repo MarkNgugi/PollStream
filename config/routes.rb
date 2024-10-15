@@ -11,4 +11,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  references :polls do
+    references :votes, only: [ :create ]
+  end
 end
